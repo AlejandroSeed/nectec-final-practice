@@ -7,7 +7,7 @@
 
 import CoreData
 
-final class ATSPersistenceController {
+struct ATSPersistenceController {
     //MARK: - Properties
     static let shared = ATSPersistenceController()
 

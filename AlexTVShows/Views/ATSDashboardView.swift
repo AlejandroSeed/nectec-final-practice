@@ -8,32 +8,36 @@
 import SwiftUI
 
 struct ATSDashboardView: View {
-    @State private var selection: Tab = .featured
+    //MARK: - Enviroment
+    @Environment(\.managedObjectContext) private var viewContext
     
-    enum Tab {
+    //MARK: - State
+    @State private var selection: Tab = .list
+    
+    private enum Tab {
         case list
         case favorite
     }
     
     var body: some View {
         TabView(selection: $selection) {
-            CategoryHome()
+            ATSTvShowsView(type: .all)
                 .tabItem {
-                    Label("Featured", systemImage: "star")
-                }
-                .tag(Tab.featured)
-            
-            LandmarkList()
-                .tabItem {
-                    Label("List", systemImage: "list.bullet")
+                    Label("TVShows", systemImage: "tv")
                 }
                 .tag(Tab.list)
+            
+            ATSTvShowsView(type: .favorite)
+                .tabItem {
+                    Label("Favoritos", systemImage: "star")
+                }
+                .tag(Tab.favorite)
         }
     }
 }
 
 struct ATSDashboardView_Previews: PreviewProvider {
     static var previews: some View {
-        ATSDashboardView()
+        ATSDashboardView().environment(\.managedObjectContext, ATSPersistenceController.preview.container.viewContext)
     }
 }

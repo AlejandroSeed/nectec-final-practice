@@ -13,8 +13,7 @@ struct AlexTVShowsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ATSDashboardView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ATSDashboardView().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

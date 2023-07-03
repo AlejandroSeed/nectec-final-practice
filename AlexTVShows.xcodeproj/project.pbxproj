@@ -10,11 +10,22 @@
 		A00D2ED82A5219D900337609 /* AlexTVShowsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2ED72A5219D900337609 /* AlexTVShowsApp.swift */; };
 		A00D2EDC2A5219DC00337609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00D2EDB2A5219DC00337609 /* Assets.xcassets */; };
 		A00D2EDF2A5219DC00337609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00D2EDE2A5219DC00337609 /* Preview Assets.xcassets */; };
-		A00D2EE12A5219DC00337609 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2EE02A5219DC00337609 /* Persistence.swift */; };
+		A00D2EE12A5219DC00337609 /* ATSPersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2EE02A5219DC00337609 /* ATSPersistenceController.swift */; };
 		A00D2EE42A5219DC00337609 /* AlexTVShows.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A00D2EE22A5219DC00337609 /* AlexTVShows.xcdatamodeld */; };
 		A00D2EEF2A521C4800337609 /* ATSDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2EEE2A521C4800337609 /* ATSDashboardView.swift */; };
-		A00D2F142A521D3600337609 /* ATSFavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F132A521D3600337609 /* ATSFavoritesView.swift */; };
 		A00D2F162A521D4300337609 /* ATSTvShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F152A521D4300337609 /* ATSTvShowsView.swift */; };
+		A00D2F182A521DD500337609 /* ATSTvShowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F172A521DD500337609 /* ATSTvShowManager.swift */; };
+		A00D2F1A2A521E0F00337609 /* ATSTvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F192A521E0F00337609 /* ATSTvShow.swift */; };
+		A00D2F1C2A521FCC00337609 /* ATSCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F1B2A521FCC00337609 /* ATSCountry.swift */; };
+		A00D2F202A52201F00337609 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F1F2A52201F00337609 /* DateExtension.swift */; };
+		A00D2F272A52230F00337609 /* ATSShowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F262A52230F00337609 /* ATSShowItemView.swift */; };
+		A00D2F292A52290F00337609 /* ATSShowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F282A52290F00337609 /* ATSShowList.swift */; };
+		A00D2F2D2A52389000337609 /* ATSAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F2C2A52389000337609 /* ATSAction.swift */; };
+		A00D2F2F2A523B7C00337609 /* TvShowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F2E2A523B7C00337609 /* TvShowExtension.swift */; };
+		A00D2F312A523D9F00337609 /* ATSTvShowListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F302A523D9F00337609 /* ATSTvShowListType.swift */; };
+		A00D2F352A52441400337609 /* ATSTvShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D2F342A52441400337609 /* ATSTvShowDetailView.swift */; };
+		A0BAEF692A524FD800635E7D /* ATSAlertContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAEF682A524FD800635E7D /* ATSAlertContent.swift */; };
+		A0BAEF6B2A52620000635E7D /* ATSTvShowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAEF6A2A52620000635E7D /* ATSTvShowExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +33,22 @@
 		A00D2ED72A5219D900337609 /* AlexTVShowsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexTVShowsApp.swift; sourceTree = "<group>"; };
 		A00D2EDB2A5219DC00337609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00D2EDE2A5219DC00337609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A00D2EE02A5219DC00337609 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A00D2EE02A5219DC00337609 /* ATSPersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSPersistenceController.swift; sourceTree = "<group>"; };
 		A00D2EE32A5219DC00337609 /* AlexTVShows.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlexTVShows.xcdatamodel; sourceTree = "<group>"; };
 		A00D2EEE2A521C4800337609 /* ATSDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSDashboardView.swift; sourceTree = "<group>"; };
-		A00D2F132A521D3600337609 /* ATSFavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSFavoritesView.swift; sourceTree = "<group>"; };
 		A00D2F152A521D4300337609 /* ATSTvShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSTvShowsView.swift; sourceTree = "<group>"; };
+		A00D2F172A521DD500337609 /* ATSTvShowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSTvShowManager.swift; sourceTree = "<group>"; };
+		A00D2F192A521E0F00337609 /* ATSTvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSTvShow.swift; sourceTree = "<group>"; };
+		A00D2F1B2A521FCC00337609 /* ATSCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSCountry.swift; sourceTree = "<group>"; };
+		A00D2F1F2A52201F00337609 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		A00D2F262A52230F00337609 /* ATSShowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSShowItemView.swift; sourceTree = "<group>"; };
+		A00D2F282A52290F00337609 /* ATSShowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSShowList.swift; sourceTree = "<group>"; };
+		A00D2F2C2A52389000337609 /* ATSAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSAction.swift; sourceTree = "<group>"; };
+		A00D2F2E2A523B7C00337609 /* TvShowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowExtension.swift; sourceTree = "<group>"; };
+		A00D2F302A523D9F00337609 /* ATSTvShowListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSTvShowListType.swift; sourceTree = "<group>"; };
+		A00D2F342A52441400337609 /* ATSTvShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSTvShowDetailView.swift; sourceTree = "<group>"; };
+		A0BAEF682A524FD800635E7D /* ATSAlertContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSAlertContent.swift; sourceTree = "<group>"; };
+		A0BAEF6A2A52620000635E7D /* ATSTvShowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSTvShowExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				A00D2ED72A5219D900337609 /* AlexTVShowsApp.swift */,
+				A00D2F1D2A52200900337609 /* Utils */,
 				A00D2EED2A521C1800337609 /* Model */,
 				A00D2EEC2A521C1400337609 /* Core */,
+				A00D2F252A5222D400337609 /* Components */,
 				A00D2EEB2A521C0F00337609 /* Views */,
 				A00D2EDB2A5219DC00337609 /* Assets.xcassets */,
 				A00D2EE22A5219DC00337609 /* AlexTVShows.xcdatamodeld */,
@@ -82,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				A00D2EEE2A521C4800337609 /* ATSDashboardView.swift */,
-				A00D2F132A521D3600337609 /* ATSFavoritesView.swift */,
 				A00D2F152A521D4300337609 /* ATSTvShowsView.swift */,
+				A00D2F342A52441400337609 /* ATSTvShowDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,7 +115,8 @@
 		A00D2EEC2A521C1400337609 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A00D2EE02A5219DC00337609 /* Persistence.swift */,
+				A00D2EE02A5219DC00337609 /* ATSPersistenceController.swift */,
+				A00D2F172A521DD500337609 /* ATSTvShowManager.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -99,8 +124,40 @@
 		A00D2EED2A521C1800337609 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A00D2F192A521E0F00337609 /* ATSTvShow.swift */,
+				A00D2F1B2A521FCC00337609 /* ATSCountry.swift */,
+				A00D2F2C2A52389000337609 /* ATSAction.swift */,
+				A00D2F302A523D9F00337609 /* ATSTvShowListType.swift */,
+				A0BAEF682A524FD800635E7D /* ATSAlertContent.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A00D2F1D2A52200900337609 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A00D2F1E2A52201400337609 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A00D2F1E2A52201400337609 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A00D2F1F2A52201F00337609 /* DateExtension.swift */,
+				A00D2F2E2A523B7C00337609 /* TvShowExtension.swift */,
+				A0BAEF6A2A52620000635E7D /* ATSTvShowExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A00D2F252A5222D400337609 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A00D2F262A52230F00337609 /* ATSShowItemView.swift */,
+				A00D2F282A52290F00337609 /* ATSShowList.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,10 +231,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00D2F162A521D4300337609 /* ATSTvShowsView.swift in Sources */,
-				A00D2F142A521D3600337609 /* ATSFavoritesView.swift in Sources */,
+				A00D2F292A52290F00337609 /* ATSShowList.swift in Sources */,
+				A00D2F272A52230F00337609 /* ATSShowItemView.swift in Sources */,
+				A00D2F202A52201F00337609 /* DateExtension.swift in Sources */,
+				A0BAEF6B2A52620000635E7D /* ATSTvShowExtension.swift in Sources */,
 				A00D2EE42A5219DC00337609 /* AlexTVShows.xcdatamodeld in Sources */,
+				A00D2F182A521DD500337609 /* ATSTvShowManager.swift in Sources */,
 				A00D2EEF2A521C4800337609 /* ATSDashboardView.swift in Sources */,
-				A00D2EE12A5219DC00337609 /* Persistence.swift in Sources */,
+				A00D2F2F2A523B7C00337609 /* TvShowExtension.swift in Sources */,
+				A00D2F1A2A521E0F00337609 /* ATSTvShow.swift in Sources */,
+				A00D2F352A52441400337609 /* ATSTvShowDetailView.swift in Sources */,
+				A00D2F312A523D9F00337609 /* ATSTvShowListType.swift in Sources */,
+				A0BAEF692A524FD800635E7D /* ATSAlertContent.swift in Sources */,
+				A00D2EE12A5219DC00337609 /* ATSPersistenceController.swift in Sources */,
+				A00D2F2D2A52389000337609 /* ATSAction.swift in Sources */,
+				A00D2F1C2A521FCC00337609 /* ATSCountry.swift in Sources */,
 				A00D2ED82A5219D900337609 /* AlexTVShowsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,8 +381,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +391,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.AlexTVShows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -342,8 +414,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,9 +424,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.AlexTVShows;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
